@@ -1,0 +1,79 @@
+/* Warna tema apotek: hijau lembut dan putih */
+body {
+  background-color: #f4fff4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2, h4 {
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+/* Form input dan tombol */
+.form-label {
+  font-weight: 600;
+}
+
+.btn-success {
+  background-color: #43a047;
+  border-color: #388e3c;
+}
+
+.btn-success:hover {
+  background-color: #388e3c;
+  border-color: #2e7d32;
+}
+
+/* Tabel keranjang */
+.table thead th {
+  background-color: #c8e6c9;
+  color: #1b5e20;
+}
+
+.table tbody td {
+  vertical-align: middle;
+}
+
+a.btn-danger {
+  padding: 4px 8px;
+}
+
+hr {
+  border-top: 2px solid #66bb6a;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+  color: #666;
+  font-size: 0.9em;
+}
+
+/* STRUK - style untuk halaman struk.php */
+
+.struk {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px dashed #333;
+  background-color: #fff;
+  font-family: monospace;
+}
+
+.struk h4 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-end {
+  text-align: right;
+}
+
+@media print {
+  .no-print {
+    display: none;
+  }
+}
